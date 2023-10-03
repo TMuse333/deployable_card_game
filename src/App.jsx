@@ -1,16 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import NavBar from './components/NavBar';
+import QuantumBackground from './components/QuantumBackground';
+import CardSet from './components/CardSet';
+import Axios from 'axios';
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+  
 
   return (
     <>
-    <div>salt</div>
+
+<QuantumBackground />
+
+      
+      <CardSet />
+   
+      
+    
     </>
-  )
+  );
+
 }
 
-export default App
+
+export default App;
