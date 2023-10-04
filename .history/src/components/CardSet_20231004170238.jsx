@@ -280,7 +280,7 @@ pointsEarned = Math.max(pointsEarned, 0)
            
             setTimeout(()=>{
               setRandomImage(getRandomImage());
-            },1800)
+            },1)
             
             
             setTimeout(()=>{
