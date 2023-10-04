@@ -279,12 +279,12 @@ pointsEarned = Math.max(pointsEarned, 0)
         
            
             setTimeout(()=>{
-              setRandomImage(getRandomImage());
-            },1500)
+              
+            })
             
             
             setTimeout(()=>{
-              // Change the random image
+              setRandomImage(getRandomImage()); // Change the random image
               shuffleCards()
               setSelectedImage(null)
               

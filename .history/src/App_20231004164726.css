@@ -123,7 +123,7 @@ ul.navLinks li a {
 
 .cardSet {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 20vw 20vw 20vw 20vw;
   grid-gap: 0.5em;
   margin-top: 3rem;
   margin-left: -1rem;

@@ -185,7 +185,7 @@ ul.navLinks li a {
   height: 2.3rem;
   z-index: 0;
   display: grid;
-  margin-top: 8rem;
+  
   /* transform: translateY(3rem); */
   
 }
@@ -881,12 +881,6 @@ transform: translateY(2.5rem);
    font-size: 6px;
    padding-top: 3px;
     
-  }
-
-  .start-button{
-    margin-top: 2rem;
-    margin-bottom: -5rem;
-    transform: translateY(3rem);
   }
 
   .slat{

@@ -884,9 +884,7 @@ transform: translateY(2.5rem);
   }
 
   .start-button{
-    margin-top: 2rem;
-    margin-bottom: -5rem;
-    transform: translateY(3rem);
+    margin-top: 0;
   }
 
   .slat{

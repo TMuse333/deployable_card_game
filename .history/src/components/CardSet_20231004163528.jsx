@@ -278,13 +278,11 @@ pointsEarned = Math.max(pointsEarned, 0)
            
         
            
-            setTimeout(()=>{
-              setRandomImage(getRandomImage());
-            },1500)
+
             
             
             setTimeout(()=>{
-              // Change the random image
+              setRandomImage(getRandomImage()); // Change the random image
               shuffleCards()
               setSelectedImage(null)
               
@@ -568,19 +566,7 @@ const scaleDown = () =>{
   setSelectedImage(null)
 }
 
-const [buttonHovered, setButtonHovered] = useState(false);
-
-const buttonEnter =() =>{
-  setButtonHovered(true);
-}
-
-const buttonLeave = () => {
-  setButtonHovered(false)
-}
-
-const homeButtonStyle ={
-  transform: buttonHovered ? 'scale(1.33)' : 'scale(1)',
-}
+const [is]
 
 
 
@@ -652,9 +638,7 @@ style={{zIndex:9000}}>Incorrect! -100</div>}
        onClick={
         ()=>startGame()}
        className={!gameOver ? 'no-show' : win !== null ? 'start-button-gameOver' : 'start-button'}
-       onMouseEnter={()=>buttonEnter()}
-       onMouseLeave={()=>buttonLeave()}
-       style={homeButtonStyle}
+       
      >
        Start game!
      </button>
